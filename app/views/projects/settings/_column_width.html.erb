@@ -1,0 +1,14 @@
+<%= form_tag({:action => 'width', :tab => 'width'}) do %>
+
+  <p>
+    Set column
+    <%= text_field_tag :cw_index1, @project.cw_index1.to_s %>
+    to
+    <%= text_field_tag :cw_value1, @project.cw_value1.to_s %>
+    px
+  </p>
+
+  <%= submit_tag l(:button_save) %>
+
+<% end %>
+

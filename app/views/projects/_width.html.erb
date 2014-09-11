@@ -1,4 +1,5 @@
 <style>
-table.list th:nth-child(<%= "#{@project.cw_index1}" %>) { width: <%= "#{@project.cw_value1}" %>px; }
+table.list th:nth-child(<%= "#{@project.cw_index1}" %>) { min-width: <%= "#{@project.cw_value1}" %>px;  max-width: <%= "#{@project.cw_value1}" %>px; }
 table.list tbody tr td.cf_19.string {word-break: break-all; white-space: normal;}
+table.list tbody tr td.author {white-space: normal;}
 </style>

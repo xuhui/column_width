@@ -12,7 +12,7 @@ Redmine::Plugin.register :column_width do
   name 'Alter Column Width by Project'
   author 'Zhou Xuhui'
   description 'Alter the column width for issue list by project'
-  version '0.0.1'
+  version '0.0.2'
   url 'https://github.com/xuhui/column_width'
   author_url 'https://github.com/xuhui'
   permission :column_width, {:projects => :width}, public: true # :require => :member
